@@ -10,7 +10,7 @@ const
 module.exports = (client, CLIENT_ID) => rpcGenerator.getRpcImage(CLIENT_ID, IMAGE_NAME)
   .then(image => client.user.setPresence(
     new rpcGenerator.Rpc()
-      .setName("twitch")
+      .setName("Societea")
       .setUrl(LINK)
       .setType("STREAMING")
       .setApplicationId(CLIENT_ID)
