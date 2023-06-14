@@ -10,9 +10,7 @@ const
   client = new Client(),
 
   statuses = new Map([
-    [1, ["playing", chalk.yellowBright.bold]],
-    [2, ["listening", chalk.greenBright.bold]],
-    [3, ["streaming", chalk.magentaBright.bold]]
+    [1, ["streaming", chalk.magentaBright.bold]]
   ]);
 
 dotenv.config();
